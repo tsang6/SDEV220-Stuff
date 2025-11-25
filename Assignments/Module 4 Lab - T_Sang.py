@@ -1,5 +1,5 @@
 # Name: Thawng Sang
-# Purpose: Flask REST API for managing a Book collection with CRUD operations
+# Flask for managing a Book collection with CRUD operations
 # 24/11/2025
 
 from flask import Flask, request
@@ -54,4 +54,5 @@ def delete_book(id):
 
 # Run Flask
 if __name__ == '__main__':
+
     app.run(debug=True)
