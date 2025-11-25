@@ -1,4 +1,4 @@
-# Name: Thawng Sang
+# Thawng Sang
 # Flask for managing a Book collection with CRUD operations
 # 24/11/2025
 
@@ -56,3 +56,4 @@ def delete_book(id):
 if __name__ == '__main__':
 
     app.run(debug=True)
+
